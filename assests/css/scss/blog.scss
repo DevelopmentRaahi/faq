@@ -275,3 +275,100 @@ $primary_color: #0064ab;
 
     }
 }
+
+$offer_bg_color : rgb(250, 251, 255);
+$btn_pric_color:#099f7c;
+    $add_cart_color:#4e84c6;
+
+.offer_section_bg{
+    background-color: $offer_bg_color;
+    margin-bottom: 2.3rem;
+
+    .main_box{        
+        padding: 3rem 0rem;
+        text-align: center;
+        
+        h2{
+            color: $btn_pric_color;
+            font-weight: 700;
+            font-size: 2.7rem;
+        }
+        p{
+            text-align: center;
+        }
+        & >*{
+            margin-top: 2.5rem;
+        }
+    }
+
+    .main_button{
+       a{
+         text-decoration: none;
+         background-color: $add_cart_color;
+         border-radius: 0.5rem;
+         display: inline-block;
+         padding: 0.8rem 3rem ;
+         font-size: 1.2rem;
+         font-weight: 500;
+         color: #fff;
+
+         &:hover{
+            background-color: darken($color: $add_cart_color, $amount: 5);
+         }
+       }
+    }
+    .main_button_two{
+       a{
+         text-decoration: none;
+        //  background-color: $add_cart_color;
+         border-radius: 0.5rem;
+         display: inline-block;
+         padding: 0.8rem 0rem ;
+         font-size: 1.2rem;
+         font-weight: 600;
+         color:  $btn_pric_color;
+
+         &:hover{
+            color: darken($color:  $btn_pric_color, $amount: 10);
+         }
+       }
+    }
+}
+.price_end{
+    padding: 3rem 0rem;
+    p{
+        font-size: 1rem;
+        text-align: center;
+        color: black;
+    }
+    h4{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: rgba(24, 9, 85, 0.686);
+    }
+    & >*{
+            margin-top: 1.3rem;
+        }
+
+    .accordion-button:not(.collapsed){
+        background-color: #fff !important;
+    }
+    .accordion-button{
+        font-size: 1.1rem;
+          font-weight: 600;
+        &:focus{
+            box-shadow: none !important;
+        }
+    }
+
+    .collapsed{
+         font-size: 1.1rem;
+         font-weight: 600;
+        
+    }
+    .accordion-body {
+        font-size: 1.1rem;
+    }
+    
+}
