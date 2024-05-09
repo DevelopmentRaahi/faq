@@ -132,8 +132,102 @@ $primary_color: #0064ab;
         }
     }
 
-
 }
+.price_head{
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+        color: $primary_color;
+    }
+    h4{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #25155b;
+    }
+}
+// price box styling
+
+.price_box {
+    // background-color: rgba(128, 128, 128, 0.181);
+    border: 1px solid rgba(128, 128, 128, 0.181);
+    padding: 1.5rem;
+    border-radius: 0.5rem;  
+    
+    h2{
+        color: $primary_color;
+        font-size: 2.4rem;
+        margin-bottom: 1.2rem;
+    }
+    ul {
+        text-align: center;
+        li{
+            list-style-type: none;
+        }
+    }
+    .inline_item{
+        p{
+            display: inline-block;  
+            &:not(:last-child) {
+                font-size: 1.2rem;
+                margin-right: 1.7rem;
+                text-decoration: line-through;
+                text-transform: uppercase;
+            }   
+            &:last-child{
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: #043383fa;
+                background-color: rgba(0, 149, 255, 0.213);
+                padding: 0.2rem 0.9rem;
+                border-radius: 1.2rem;
+                text-transform: uppercase;
+            }                
+        }
+    }
+    $btn_pric_color:#099f7c;
+
+    .price_tag{
+        font-size: 1.7rem;
+        span{
+            font-size: 3.4rem;
+            font-weight: 700;
+            color: $btn_pric_color;
+        }
+    }
+    .main_button{
+       a{
+         text-decoration: none;
+         background-color: $btn_pric_color;
+         border-radius: 1rem;
+         display: block;
+         padding: 0.8rem 0rem ;
+         font-size: 1.2rem;
+         font-weight: 500;
+         color: #fff;
+
+         &:hover{
+            background-color: darken($color: $btn_pric_color, $amount: 5);
+         }
+       }
+    }
+    .btn_desc{
+        margin-top: 2rem;
+    }
+
+    .item_center  *{
+       text-align: center;
+    }
+    transition:all 0.3s linear;
+    &:hover{
+        @include boxshadow();
+        transition:all 0.3s linear;
+        transform: translateY(-1rem);
+        border: 1px solid $btn_pric_color;
+    }
+}
+
+
 
 @media only screen and (min-width: 600) {
     html {
