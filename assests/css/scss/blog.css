@@ -17,9 +17,6 @@ body {
 }
 
 .background_random {
-  background: linear-gradient(to right top, rgba(19, 41, 153, 0.246), rgba(19, 33, 88, 0.2));
-  background-size: cover;
-  background-position: right center;
   padding: 0;
   margin: 0;
 }
@@ -64,7 +61,6 @@ body {
   width: 95%;
   height: 50%;
   border-radius: 1rem;
-  box-shadow: 0rem 0.2rem 0.2rem rgba(26, 26, 26, 0.1607843137);
 }
 .row-design_gap .second_image:hover {
   transform: scale(98%);

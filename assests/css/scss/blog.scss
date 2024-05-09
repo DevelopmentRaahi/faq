@@ -26,9 +26,9 @@ $primary_color: #0064ab;
 .background_random {
     //  background-color: rgba(147, 168, 157, 0.597) !important;
 
-    background: linear-gradient(to right top, rgba(19, 41, 153, 0.246), rgba(19, 33, 88, 0.2));
-    background-size: cover;
-    background-position: right center;
+    // background: linear-gradient(to right top, rgba(19, 41, 153, 0.246), rgba(19, 33, 88, 0.2));
+    // background-size: cover;
+    // background-position: right center;
     padding: 0;
     margin: 0;
 }
@@ -81,7 +81,7 @@ $primary_color: #0064ab;
                 width: 95%;
                 height: 50%;
                 border-radius: 1rem;
-                box-shadow: 0rem 0.2rem 0.2rem #1a1a1a29;
+                // box-shadow: 0rem 0.2rem 0.2rem #1a1a1a29;
             }
 
             &:hover {
