@@ -80,7 +80,7 @@ body {
 }
 .first_section .card_box {
   padding: 2rem;
-  background-color: rgba(171, 171, 171, 0.11);
+  background-color: rgba(171, 171, 171, 0.033);
   box-sizing: border-box;
   border: 1px solid rgba(128, 128, 128, 0.305);
   border-radius: 0.5em;
