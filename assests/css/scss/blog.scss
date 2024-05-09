@@ -143,7 +143,7 @@ $primary_color: #0064ab;
         text-align: center;
         font-size: 2.5rem;
         font-weight: 700;
-        color: #25155b;
+        color: rgba(37, 36, 41, 0.686);
     }
 }
 // price box styling
@@ -160,17 +160,18 @@ $primary_color: #0064ab;
         margin-bottom: 1.2rem;
     }
     ul {
-        text-align: center;
+        text-align: left;
         li{
             list-style-type: none;
+         }
         }
-    }
+    
     .inline_item{
         p{
             display: inline-block;  
             &:not(:last-child) {
-                font-size: 1.2rem;
-                margin-right: 1.7rem;
+                font-size: 1rem;
+                margin-right: 1.1rem;
                 text-decoration: line-through;
                 text-transform: uppercase;
             }   
@@ -226,7 +227,18 @@ $primary_color: #0064ab;
         transform: translateY(-1rem);
         border: 1px solid $btn_pric_color;
     }
-}
+    .price_specs{
+        li{
+            
+            i{
+                color: $btn_pric_color;
+                margin-right: 0.7rem;
+                font-weight: 800;               
+            }
+        }
+    }
+
+ }
 
 
 
