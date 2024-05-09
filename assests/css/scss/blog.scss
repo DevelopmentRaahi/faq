@@ -186,6 +186,7 @@ $primary_color: #0064ab;
         }
     }
     $btn_pric_color:#099f7c;
+    $add_cart_color:#4e84c6;
 
     .price_tag{
         font-size: 1.7rem;
@@ -198,7 +199,7 @@ $primary_color: #0064ab;
     .main_button{
        a{
          text-decoration: none;
-         background-color: $btn_pric_color;
+         background-color: $add_cart_color;
          border-radius: 1rem;
          display: block;
          padding: 0.8rem 0rem ;
@@ -207,7 +208,7 @@ $primary_color: #0064ab;
          color: #fff;
 
          &:hover{
-            background-color: darken($color: $btn_pric_color, $amount: 5);
+            background-color: darken($color: $add_cart_color, $amount: 5);
          }
        }
     }

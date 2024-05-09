@@ -160,7 +160,7 @@ body {
 }
 .price_box .main_button a {
   text-decoration: none;
-  background-color: #099f7c;
+  background-color: #4e84c6;
   border-radius: 1rem;
   display: block;
   padding: 0.8rem 0rem;
@@ -169,7 +169,7 @@ body {
   color: #fff;
 }
 .price_box .main_button a:hover {
-  background-color: #088769;
+  background-color: #3d77bd;
 }
 .price_box .btn_desc {
   margin-top: 2rem;
