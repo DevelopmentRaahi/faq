@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*,
+*::after, 
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html{
+   font-size: 87%;
+   text-align: left;
+}
+
+body{
+   font-family: "Montserrat", sans-serif;
+}
+@mixin boxshadow{
+     box-shadow: 0rem 0.2rem 0.2rem #1a1a1a29;
+}
+$primary_color:#0064ab;
+
+.background_random{
+//  background-color: rgba(147, 168, 157, 0.597) !important;
+
+    background: linear-gradient(to right top, rgba(19, 41, 153, 0.246), rgba(19, 33, 88, 0.2));
+    background-size: cover;
+    background-position: right center;
+    padding: 0;
+    margin: 0;
+}
+.row{
+    &-design_gap{       
+        padding: 2rem 0px;
+        
+        h2{
+            font-size: 3.7rem;
+            color:$primary_color;
+            font-weight: 700;
+        }
+        p{
+           color: #1d1a0e; 
+           font-size: 1.2rem;
+        }
+        .first_section{
+            position: relative;
+            margin: 5rem 1rem;
+
+            .btn-design{
+                background-color: #fc5a15;
+                color: #fff;
+                font-size: 1.2rem;
+                padding: 1rem 2rem;
+                transition: all 0.4s linear;
+                &:hover{
+                    background-color: #0064ab;
+                    transform: rotate(2deg);
+                    transition: all 0.4s linear;
+                }
+            }
+        }
+        .first_section > *:not(:last-child){
+            margin-bottom: 1.5rem;
+        }
+        .second_image{
+            box-sizing: border-box;
+            transition: all 0.3s ease-in;
+            img{
+                opacity: 0.8;
+                width: 95%;
+                height: 50%;
+                border-radius: 1rem;
+                box-shadow: 0rem 0.2rem 0.2rem #1a1a1a29;
+            }
+            &:hover{
+                transform: scale(98%);
+                transition: all 0.6s ease-in;
+            }
+            
+        }
+
+
+    }
+}
+// first section
+
+.box_heading{
+    text-align: center;
+    padding: 1.5rem 0rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #25155b;
+}
+.first_section{
+    padding: 2rem 0rem;
+        .card_box {
+            padding: 2rem;
+            background-color:rgb(171 171 171 / 11%);            
+            box-sizing: border-box;
+            border: 1px solid rgba(128, 128, 128, 0.305);
+            border-radius: .5em;
+             transition: all 0.2s ease-in;
+            &:hover{
+                box-shadow: 0rem 0rem 0.2rem #0404045d;
+                transition: all 0.2s ease-in;
+            }
+            h1{
+                color:rgb(167 129 234 / 54%);
+                font-size: 4rem;
+               font-family: "Poppins", sans-serif;
+            }
+            h2{
+                color: $primary_color;
+            }
+        }
+        
+        
+}
