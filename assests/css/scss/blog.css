@@ -103,6 +103,87 @@ body {
   color: #0064ab;
 }
 
+.price_head p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #0064ab;
+}
+.price_head h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #25155b;
+}
+
+.price_box {
+  border: 1px solid rgba(128, 128, 128, 0.181);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s linear;
+}
+.price_box h2 {
+  color: #0064ab;
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+.price_box ul {
+  text-align: center;
+}
+.price_box ul li {
+  list-style-type: none;
+}
+.price_box .inline_item p {
+  display: inline-block;
+}
+.price_box .inline_item p:not(:last-child) {
+  font-size: 1.2rem;
+  margin-right: 1.7rem;
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+.price_box .inline_item p:last-child {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgba(4, 51, 131, 0.9803921569);
+  background-color: rgba(0, 149, 255, 0.213);
+  padding: 0.2rem 0.9rem;
+  border-radius: 1.2rem;
+  text-transform: uppercase;
+}
+.price_box .price_tag {
+  font-size: 1.7rem;
+}
+.price_box .price_tag span {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: #099f7c;
+}
+.price_box .main_button a {
+  text-decoration: none;
+  background-color: #099f7c;
+  border-radius: 1rem;
+  display: block;
+  padding: 0.8rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+.price_box .main_button a:hover {
+  background-color: #088769;
+}
+.price_box .btn_desc {
+  margin-top: 2rem;
+}
+.price_box .item_center * {
+  text-align: center;
+}
+.price_box:hover {
+  box-shadow: 0rem 0.2rem 0.2rem rgba(26, 26, 26, 0.1607843137);
+  transition: all 0.3s linear;
+  transform: translateY(-1rem);
+  border: 1px solid #099f7c;
+}
+
 @media only screen and (min-width: 600) {
   html {
     font-size: 62.5%;
