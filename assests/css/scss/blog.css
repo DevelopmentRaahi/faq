@@ -80,7 +80,7 @@ body {
 }
 
 .first_section {
-  padding: 2rem 0rem;
+  padding: 0rem 0rem;
 }
 .first_section .card_box {
   padding: 2rem;
@@ -101,4 +101,19 @@ body {
 }
 .first_section .card_box h2 {
   color: #0064ab;
+}
+
+@media only screen and (min-width: 600) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  html {
+    font-size: 62.5%;
+  }
+  .row-design_gap .first_section {
+    position: relative;
+    margin: 0rem 1rem;
+  }
 }/*# sourceMappingURL=blog.css.map */
