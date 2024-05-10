@@ -112,6 +112,35 @@ body {
   color: rgba(37, 36, 41, 0.686);
 }
 
+.desc_section_bg {
+  padding: 6rem 0rem;
+}
+.desc_section_bg .first_section_para {
+  padding: 1rem 0rem 0rem 1rem;
+}
+.desc_section_bg .first_section_para h3 {
+  color: #5b72a0;
+  font-weight: 600;
+}
+.desc_section_bg .first_section_para p {
+  padding: 0rem 0rem 0rem 1.2rem;
+  text-align: left;
+}
+.desc_section_bg .row_center {
+  margin: auto;
+}
+.desc_section_bg .section_section_img img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0rem 0.2rem 0.2rem rgba(26, 26, 26, 0.1098039216);
+  border-radius: 1rem;
+  transition: all 0.5s linear;
+}
+.desc_section_bg .section_section_img img:hover {
+  transform: scale(103%);
+  transition: all 0.5s linear;
+}
+
 .price_box {
   border: 1px solid rgba(128, 128, 128, 0.181);
   padding: 1.5rem;
@@ -186,21 +215,54 @@ body {
   font-weight: 800;
 }
 
-@media only screen and (min-width: 600) {
+@media only screen and (min-width: 600px) {
   html {
-    font-size: 62.5%;
+    font-size: 80.5%;
+  }
+  .price_specs li {
+    font-size: 1.1rem !important;
   }
 }
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 787px) {
   html {
-    font-size: 62.5%;
+    font-size: 80.5%;
   }
   .row-design_gap .first_section {
     position: relative;
     margin: 0rem 1rem;
   }
+  .price_specs {
+    position: relative;
+  }
+  .price_specs li {
+    font-size: 1.2rem !important;
+  }
   .footer_paragraph p {
     font-size: 1.2rem;
+  }
+  #footer_heading ul p {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 878px) {
+  html {
+    font-size: 80.5%;
+  }
+  .row-design_gap .first_section {
+    position: relative;
+    margin: 0rem 1rem;
+  }
+  .price_specs {
+    position: relative;
+  }
+  .price_specs li {
+    font-size: 1rem !important;
+  }
+  .price_specs li i {
+    margin-right: 0.5rem;
+  }
+  .footer_paragraph p {
+    font-size: 1rem;
   }
   #footer_heading ul p {
     font-size: 1.8rem;
