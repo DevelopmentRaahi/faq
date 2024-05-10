@@ -557,7 +557,7 @@ footer,.footer-section{
 }
 
 }
-.navbtn:hover{
+.hovrbtn:hover{
   transform: translateY(-4px);
   transition: all 0.6s;
 }
