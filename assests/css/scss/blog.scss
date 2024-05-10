@@ -57,7 +57,7 @@ $primary_color: #0064ab;
                 background-color: #fc5a15;
                 color: #fff;
                 font-size: 1.2rem;
-                padding: 1rem 2rem;
+                padding: 0.6rem 2rem;
                 transition: all 0.4s linear;
 
                 &:hover {
@@ -82,10 +82,12 @@ $primary_color: #0064ab;
                 height: 50%;
                 border-radius: 1rem;
                 // box-shadow: 0rem 0.2rem 0.2rem #1a1a1a29;
+                transition: all 0.6s ease-in;
             }
 
             &:hover {
-                transform: scale(98%);
+                transform: scale(99%) rotate(4deg);
+
                 transition: all 0.6s ease-in;
             }
 
