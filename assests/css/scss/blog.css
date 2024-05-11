@@ -1,10 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 html {
@@ -85,6 +95,7 @@ body {
   box-sizing: border-box;
   border: 1px solid rgba(128, 128, 128, 0.305);
   border-radius: 0.5em;
+  height: 100%;
   transition: all 0.2s ease-in;
 }
 .first_section .card_box:hover {
@@ -98,6 +109,10 @@ body {
 }
 .first_section .card_box h2 {
   color: #0064ab;
+  font-size: 1.7rem;
+}
+.first_section .card_box h2 span {
+  color: #d6550a;
 }
 
 .price_head p {
@@ -118,12 +133,12 @@ body {
 .desc_section_bg .first_section_para {
   padding: 1rem 0rem 0rem 1rem;
 }
-.desc_section_bg .first_section_para h3 {
+.desc_section_bg .first_section_para h2 {
   color: #5b72a0;
   font-weight: 600;
 }
 .desc_section_bg .first_section_para p {
-  padding: 0rem 0rem 0rem 1.2rem;
+  padding: 0rem 0rem 0rem 0.5rem;
   text-align: left;
 }
 .desc_section_bg .row_center {
@@ -145,6 +160,7 @@ body {
   border: 1px solid rgba(128, 128, 128, 0.181);
   padding: 1.5rem;
   border-radius: 0.5rem;
+  height: 100%;
   transition: all 0.3s linear;
 }
 .price_box h2 {
@@ -157,6 +173,7 @@ body {
 }
 .price_box ul li {
   list-style-type: none;
+  line-height: 2.5rem;
 }
 .price_box .inline_item p {
   display: inline-block;
@@ -212,11 +229,8 @@ body {
 .price_box .price_specs li i {
   color: #099f7c;
   margin-right: 0.7rem;
-  line-height: 2.8rem;
   font-weight: 800;
 }
-
-
 
 @media only screen and (min-width: 600px) {
   html {
