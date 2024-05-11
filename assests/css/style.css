@@ -422,7 +422,7 @@ display: none;
   margin: auto;
 }
 .main-center a{
- font-size: 1.1rem;
+ font-size: 1.3rem !important;
  margin-left: 10px;
 }
 /* navcss */
