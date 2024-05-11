@@ -30,7 +30,7 @@ body {
   font-weight: 700;
 }
 .row-design_gap p {
-  color: #1d1a0e;
+  color: #1d120e;
   font-size: 1.2rem;
 }
 .row-design_gap .first_section {
@@ -212,8 +212,11 @@ body {
 .price_box .price_specs li i {
   color: #099f7c;
   margin-right: 0.7rem;
+  line-height: 2.8rem;
   font-weight: 800;
 }
+
+
 
 @media only screen and (min-width: 600px) {
   html {
