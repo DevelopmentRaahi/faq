@@ -22,3 +22,10 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+var typed = new Typed(".typing ", {
+  strings: ["Solution ","Support"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
+});
